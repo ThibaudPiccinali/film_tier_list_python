@@ -10,8 +10,8 @@ Comme_un_lundi
 le_deuxième_acte
 star_wars_la_menace_fantome
 jurassic_park
-il_faut_sauver_le_soldat_Ryan
-la_folle_journée_de_ferris_bueller
+il_faut_sauver_le_soldat_ryan
+la_folle_journee_de_ferris_bueller
 # Film poulet (yellow)
 nous_les_leroy
 noublie_jamais
@@ -21,26 +21,27 @@ back_to_black
 bob_marley_one_love
 un_ptit_truc_en_plus
 blue_&_companie
-haikyu_la_guerre_des_poubelles
+haikyu_!!_la_guerre_des_poubelles
 spy_x_family_code_white
 gattaca
 # Bon film (green)
 vice_versa_2
-bad_boys_ride_or_die
+bad_boys__ride_or_die
 porco_rosso
 et_plus_si_affinités
 daaaaaali
 tunnel_to_summer
-ponyo
+ponyo_sur_la_falaise
 les_trois_fantastiques
 demon_slayers_en_route_pour_l_entrainement_des_pilliers
 ducobu_passe_au_vert
+detective_conan__l_etoile_a_un_million_de_dollars
 princes_et_princesses
 les_4_ames_du_coyote
 # Ok mais sans plus (dark_green)
+mad_max__fury_road
 la_planète_des_singe_le_nouveau_royaume
 dune_2
-mad_max_fury_road
 challengers
 ici_et_la_bas
 marcello_mio
@@ -54,3 +55,4 @@ godzilla_kong_le_nouvel_empire
 # Vraiment à chier (purple)
 navoue_jamais
 la_petite_vadrouille
+# Non noté (grey)

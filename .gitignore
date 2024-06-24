@@ -1,0 +1,6 @@
+# Output folder for storing credentials
+
+credentials/*
+posters/*
+!posters/un_ptit_truc_en_plus.jpg
+!posters/vice_vers_2.jpg

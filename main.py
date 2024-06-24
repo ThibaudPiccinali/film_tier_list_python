@@ -3,9 +3,25 @@ import os
 from PIL import Image, ImageDraw,ImageFont
 import posters_api as poster
 import utils as utils
+import agenda as agenda
 
 # Chemin vers votre fichier texte
 file_path = 'notes.txt'
+
+# On récupère les films de l'agenda
+new_films = agenda.get_films_agenda()
+
+# On s'assure que les films dans cette liste ne sont pas déjà traité
+
+with open(file_path, 'r+',encoding='utf-8') as fichier:
+    contenu = fichier.read()
+    for new_film in new_films:
+        if new_film not in contenu:
+            print(f'Add new film to tier list:{new_film}')
+            # On le rajoute à la fin (dans la partie "Non noté")
+            fichier.write(f'\n{new_film}')
+            # S'assurer que le contenu est bien écrit
+            fichier.flush()
 
 # tier_list = {
 #     "tier_1":tier,
@@ -65,7 +81,6 @@ max = 0
 for tier in tier_list: 
     if len(tier_list[tier]["films"])>max:
         max = len(tier_list[tier]["films"])
-    
 
 # Définir la taille de l'image
 width, height = 160+108*max, len(tier_list)*160

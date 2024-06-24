@@ -12,6 +12,7 @@ def couleur_en_rgb(nom_couleur):
         'blue': ImageColor.getrgb("#00B0F0"),
         'deep_blue':ImageColor.getrgb("#156082"),
         'purple':ImageColor.getrgb("#7030A0"),
+        'grey':ImageColor.getrgb("#AEAEAE"),
         
         'cyan': (0, 255, 255),
         'magenta': (255, 0, 255),
@@ -40,7 +41,7 @@ def draw_centered_text(draw, text, box, font, fill):
     
     # Calculer la position y pour centrer le texte
     y = box[1] + (box[3] - box[1] - total_text_height) / 2
-    
+
     for line in lines:
         text_bbox = draw.textbbox((0, 0), line, font=font)
         text_width = text_bbox[2] - text_bbox[0]
